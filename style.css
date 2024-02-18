@@ -1,0 +1,284 @@
+html {
+    font-size: 1px;
+}
+
+body {
+    font-size: 14px;
+}
+
+.flex {
+    display: flex;
+}
+
+.header-menu {
+    padding: 20px 0;
+    background-color: #1f1f56;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: auto;
+}
+
+.header-menu .wrapper {
+
+    justify-content: space-between;
+}
+
+.buttom a {
+    display: inline-block;
+    transition: 0.3s;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: 2px solid #fd8300;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.buttom a:hover {
+    color: #ffffff;
+    background-color: #fd8300;
+}
+
+.header-menu .menu a:hover {
+    color: #fd8300;
+}
+
+.maininfo a:hover {
+    text-decoration: none;
+}
+
+.social {
+    align-items: center;
+
+}
+
+.social a {
+    margin-right: 24px;
+}
+
+.menu ul {
+    list-style: none;
+
+}
+
+.menu li {
+    margin-right: 26px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-family: "Arial";
+    color: #b1b1d2;
+
+}
+
+.contacts a {
+    transition: 0.3;
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.company .wrapper .contacts a:hover {
+    color: #fd8300;
+
+}
+
+.email a {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #25252c;
+    font-family: "Arial";
+}
+
+
+
+
+.company .wrapper .flex {
+    flex-direction: column;
+}
+
+.company {
+    padding: 31px 0;
+}
+
+.company .wrapper {
+    justify-content: space-between;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/house\ main.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 60px 0 44px;
+    margin-bottom: 36px;
+}
+
+.banner .text .text1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.banner .text .text2 {
+
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.banner .text .text3 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+
+}
+
+.banner .text .text3 b {
+    font-size: 40px;
+    line-height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+
+}
+
+h1 {
+    font-size: 30px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.maininfo p {
+
+    width: 677px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.maininfo a {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.popular-project>h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.wrapper .category-project ul {
+    list-style: none;
+}
+
+.popular-project .edmonton {}
+
+.house a {
+    text-decoration: none;
+}
+
+.house a:hover {
+    text-decoration: underline;
+}
+
+.popular-project .house {
+    margin-right: 28px;
+}
+
+.popular-project .house p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #9999a6;
+    font-family: "Arial";
+}
+
+.popular-project .house a h2 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.wrapper .category-project li:hover {
+    color: #fff;
+    background-color: #fd8300;
+}
+
+.wrapper .category-project p {
+    padding: 17px 50px 14px 16px;
+    background-color: #1f1f56;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    margin: 0;
+}
+
+.wrapper .category-project li {
+    background-color: #e4e4ec;
+    padding: 17px 50px 14px 16px;
+    transition: 0.3s;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.footer .wrapper {
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #ededf5;
+
+}
+
+.footer .wrapper .contacts {
+    flex-direction: column;
+transition: 0.3s;
+}
+.footer .wrapper .contacts a:hover {
+color: #fd8300;
+}
+.footer .footer-bottom {
+
+    background-color: #dcdce6;
+}
+
+.footer .wrapper .email {
+    flex-direction: column;
+}
