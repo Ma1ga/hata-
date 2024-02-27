@@ -1,0 +1,38 @@
+html {
+    font-size: 1px;
+}
+
+body {
+    background: url(img/rabstol_net_house_44.png);
+    font-size: 14px;
+}
+
+.header .wrapper .menu h1 {
+    font-size: 30px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+.header .wrapper .menu p{
+line-height: 24px;
+color: #666666;
+font-family: "Arial";
+}
+
+.flex {
+    display: flex;
+
+}
+
+.header .wrapper .menu {
+    flex-direction: column;
+}
+
+main .wrapper .main-info li {
+    list-style: none;
+
+}
+main .wrapper .flex .main-info {
+   justify-content:end
+}
