@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-size: 14px;
+    font-size: 14rem;
     margin: 0;
 }
 
@@ -16,12 +16,12 @@ sup {
 }
 
 .header-menu {
-    padding: 20px 0;
+    padding: 20rem 0;
     background-color: #1f1f56;
 }
 
 .wrapper {
-    max-width: 960px;
+    max-width: 960rem;
     margin: auto;
 }
 
@@ -32,12 +32,12 @@ sup {
 
 .buttom a {
     display: inline-block;
-    border-radius: 25px;
+    border-radius: 25rem;
     background-color: #fff;
     text-decoration: none;
-    padding: 15px 30px;
-    font-size: 16px;
-    line-height: 24px;
+    padding: 15rem 30rem;
+    font-size: 16rem;
+    line-height: 24rem;
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
@@ -64,7 +64,7 @@ sup {
 }
 
 .social a {
-    margin-right: 24px;
+    margin-right: 24rem;
 }
 
 .company .wrapper .contacts {
@@ -85,22 +85,22 @@ sup {
 }
 
 .menu li {
-    margin-right: 26px;
+    margin-right: 26rem;
 }
 
 .menu li a {
-    line-height: 24px;
+    line-height: 24rem;
     color: #b1b1d2;
-    font-size: 14px;
+    font-size: 14rem;
     font-family: "Arial";
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 2rem;
 
 }
 
 .contacts a {
-    line-height: 24px;
-    font-size: 18px;
+    line-height: 24rem;
+    font-size: 18rem;
     text-decoration: none;
     color: #25252c;
     font-weight: bold;
@@ -110,8 +110,8 @@ sup {
 
 
 .email a {
-    line-height: 24px;
-    font-size: 16px;
+    line-height: 24rem;
+    font-size: 16rem;
     font-family: "Arial";
     text-decoration: underline;
     color: #25252c;
@@ -136,17 +136,17 @@ sup {
 }
 
 .banner {
-    padding: 50px 0;
-    margin-bottom: 36px;
+    padding: 50rem 0;
+    margin-bottom: 36rem;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/house\ main.jpg) no-repeat;
     background-size: cover;
 }
 
 .banner .text .text1 {
-    letter-spacing: 2px;
-    line-height: 24px;
-    font-size: 30px;
+    letter-spacing: 2rem;
+    line-height: 24rem;
+    font-size: 30rem;
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
@@ -155,24 +155,24 @@ sup {
 
 .banner .text .text2 {
     text-align: center;
-    line-height: 24px;
-    font-size: 14px;
+    line-height: 24rem;
+    font-size: 14rem;
     color: #fff;
     font-family: "Arial";
 }
 
 .banner .text .text3 {
-    line-height: 24px;
+    line-height: 24rem;
     color: #fd8300;
-    font-size: 24px;
+    font-size: 24rem;
     font-weight: bold;
     font-family: "Arial";
 
 }
 
 .banner .text .text3 b {
-    font-size: 40px;
-    line-height: 24px;
+    font-size: 40rem;
+    line-height: 24rem;
     color: #fd8300;
     font-weight: bold;
     font-family: "Arial";
@@ -181,7 +181,7 @@ sup {
 
 h1 {
     color: #24242b;
-    font-size: 30px;
+    font-size: 30rem;
     font-weight: 700;
     font-family: "Roboto Slab";
 }
@@ -191,7 +191,7 @@ main .wrapper>div {
 }
 
 main {
-    margin-bottom: 46px;
+    margin-bottom: 46rem;
 }
 
 main .wrapper {
@@ -200,22 +200,22 @@ main .wrapper {
 }
 
 .maininfo {
-    padding-right: 20px;
+    padding-right: 20rem;
 
 }
 
 .maininfo p {
-    font-size: 14px;
+    font-size: 14rem;
     color: #666;
-    line-height: 24px;
+    line-height: 24rem;
     font-family: "Arial";
 }
 
 .maininfo a {
     display: inline-block;
-    margin-bottom: 33px;
-    font-size: 14px;
-    line-height: 24px;
+    margin-bottom: 33rem;
+    font-size: 14rem;
+    line-height: 24rem;
     text-decoration: underline;
     color: #fd8300;
     font-weight: bold;
@@ -240,7 +240,7 @@ hr {
 
 .popular-project>h2 {
     color: #24242b;
-    font-size: 24px;
+    font-size: 24rem;
     font-weight: 700;
     font-family: "Roboto Slab";
 }
@@ -251,19 +251,19 @@ hr {
 
 .popular-project .house p {
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 5rem;
     color: #9999a6;
-    font-size: 13px;
+    font-size: 13rem;
     font-family: "Arial";
 }
 
 
 .popular-project .house a h2 {
     color: #1f1f56;
-    font-size: 14px;
+    font-size: 14rem;
     font-weight: bold;
     font-family: "Arial";
-    line-height: 24px;
+    line-height: 24rem;
 }
 
 aside {
@@ -304,10 +304,10 @@ aside {
 
 .category-project p {
     background-color: #1f1f56;
-    padding: 15px;
+    padding: 15rem;
     margin: 0;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 16rem;
+    line-height: 24rem;
     color: #fff;
     font-weight: 700;
     font-family: "Roboto Slab";
@@ -318,14 +318,14 @@ aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 14rem;
+    line-height: 24rem;
     color: #25252c;
     font-family: "Arial";
     text-decoration: none;
 
     background-color: #e4e4ec;
-    padding: 15px;
+    padding: 15rem;
     transition: 0.3s;
 }
 
@@ -335,13 +335,13 @@ aside {
 }
 
 .category-project {
-    border-radius: 3px;
+    border-radius: 3rem;
     overflow: hidden;
 }
 
 .category-project a:hover {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 14rem;
+    line-height: 24rem;
     color: #fff;
     font-family: "Arial";
 }
@@ -365,8 +365,8 @@ ul {
 }
 
 .footer .wrapper .info a {
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 14rem;
+    line-height: 26rem;
     text-decoration: none;
     color: #666;
     font-family: "Arial";
@@ -393,14 +393,14 @@ ul {
 
 .footer .footer-bottom {
     text-align: center;
-    padding: 15px;
+    padding: 15rem;
     background-color: #dcdce6;
 }
 
 
 .footer .footer-bottom p {
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 13rem;
+    line-height: 18rem;
     color: #9999a6;
     font-family: "Arial";
     margin: 0;
@@ -420,5 +420,9 @@ ul {
 }
 
 .footer .wrapper {
-    padding-bottom: 29px;
+    padding-bottom: 29rem;
+}
+figure {
+ 
+ margin: 0;
 }
