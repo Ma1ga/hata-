@@ -62,7 +62,25 @@ sup {
     align-items: center;
 
 }
-
+.social a {
+ display: block;   
+ width: 28px;
+ height: 28px;
+ background: url(img/img\ social3.png) no-repeat;
+}
+a.in{
+    width: 21px;
+    height: 21px;
+    background-position: -44px 0;
+}
+a.fb {
+    width: 15px;
+    height: 18px;
+    background-position: -0px -3px;
+}
+a.tw {
+    width: ;
+}
 .social a {
     margin-right: 24rem;
 }
