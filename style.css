@@ -62,27 +62,98 @@ sup {
     align-items: center;
 
 }
+
 .social a {
- display: block;   
- width: 28px;
- height: 28px;
- background: url(img/img\ social3.png) no-repeat;
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url(img/img\ social3.png) no-repeat;
 }
-a.in{
+
+a.in {
     width: 21px;
     height: 21px;
+    transition: 0.3s;
     background-position: -44px 0;
 }
+
+a.in:hover {
+    background-position: -44px -23px;
+}
+
 a.fb {
     width: 15px;
     height: 18px;
-    background-position: -0px -3px;
+    transition: 0.3s;
+    background-position: -1px -2px;
 }
+
+a.fb:hover {
+    background-position: 0px -23px;
+}
+
 a.tw {
-    width: ;
+    width: 16px;
+    height: 18px;
+    transition: 0.3s;
+    background-position: -19px 0px;
 }
+
+a.tw:hover {
+    background-position: -19px -20px;
+}
+
+
 .social a {
     margin-right: 24rem;
+}
+
+.contacts .icon {
+    position: relative;
+}
+
+.contacts .icon:before {
+    width: 16px;
+    height: 16px;
+    content: "";
+    position: absolute;
+
+    top: 3px;
+    left: -27px;
+    background-image: url(img/img\ social3.png);
+    background-position: 67px -24px;
+}
+
+.email .mail {
+    position: relative;
+}
+
+.email .mail:before {
+    width: 17px;
+    height: 16px;
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -27px;
+
+    background-image: url(img/img\ social3.png);
+    background-position: -90px -26px;
+}
+
+.email .skype {
+    position: relative;
+}
+
+.email .skype:before {
+    width: 18px;
+    height: 18px;
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: -27px;
+
+    background-image: url(img/img\ social3.png);
+    background-position: -115px -23px;
 }
 
 .company .wrapper .contacts {
@@ -332,6 +403,7 @@ aside {
 }
 
 .category-project li a {
+
     box-shadow: inset 0px -1px 0px #cecedd;
     display: flex;
     justify-content: space-between;
@@ -341,10 +413,9 @@ aside {
     color: #25252c;
     font-family: "Arial";
     text-decoration: none;
-
+    position: relative;
     background-color: #e4e4ec;
     padding: 15rem;
-    transition: 0.3s;
 }
 
 .category-project ul li {
@@ -364,6 +435,27 @@ aside {
     font-family: "Arial";
 }
 
+.category-project li:hover .proga:before {
+    width: 10px;
+    height: 6px;
+    content: "";
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    background-image: url(img/img\ social3.png);
+    background-position: -18px -49px;
+}
+
+.category-project li .proga:before {
+    width: 6px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 14px;
+    background-image: url(img/img\ social3.png);
+    background-position: -2px -49px;
+}
 
 
 ul {
@@ -395,28 +487,35 @@ ul {
 }
 
 
-.footer .wrapper .info a:hover {
+footer .wrapper .info a:hover {
     color: #fd8300;
     transition: 0.3s;
 }
 
-.footer .wrapper .contacts {
+footer .wrapper .contacts {
     flex-direction: column;
     transition: 0.3s;
 }
 
-.footer .wrapper .contacts a:hover {
+footer .wrapper .contacts a:hover {
     color: #fd8300;
 }
 
-.footer .footer-bottom {
+footer .contacts .tell {
+    position: relative;
+}
+
+
+
+
+footer .footer-bottom {
     text-align: center;
     padding: 15rem;
     background-color: #dcdce6;
 }
 
 
-.footer .footer-bottom p {
+footer .footer-bottom p {
     font-size: 13rem;
     line-height: 18rem;
     color: #9999a6;
@@ -425,22 +524,24 @@ ul {
     padding: 0;
 }
 
-.footer .email a:hover {
+footer .email a:hover {
     color: #fd8300;
 }
 
-.footer .wrapper .email {
+footer .wrapper .email {
     flex-direction: column;
+
 }
 
-.footer .wrapper .email1 {
+footer .wrapper .email1 {
     text-decoration: none;
 }
 
-.footer .wrapper {
+footer .wrapper {
     padding-bottom: 29rem;
 }
+
 figure {
- 
- margin: 0;
+
+    margin: 0;
 }
