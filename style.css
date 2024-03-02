@@ -72,7 +72,7 @@ sup {
 
 a.in {
     width: 21px;
-    height: 21px;
+    height: 22px;
     transition: 0.3s;
     background-position: -44px 0;
 }
@@ -362,6 +362,7 @@ aside {
 
 .wrapper .category-project ul {
     list-style: none;
+   
 
 }
 
@@ -386,7 +387,7 @@ aside {
     width: 100%;
 }
 
-.category-project li a:hover {
+.category-project li:hover {
     color: #fff;
     background-color: #fd8300;
 }
@@ -414,12 +415,17 @@ aside {
     font-family: "Arial";
     text-decoration: none;
     position: relative;
-    background-color: #e4e4ec;
     padding: 15rem;
 }
-
+.category-project ul ul a {
+    padding-left: 30px;
+    color: #666666;
+}
+.category-project ul ul a:hover {
+    background-color: #cecedd;
+}
 .category-project ul li {
-
+    
     background-color: #e4e4ec;
 }
 
@@ -428,11 +434,10 @@ aside {
     overflow: hidden;
 }
 
-.category-project a:hover {
-    font-size: 14rem;
-    line-height: 24rem;
+.category-project>nav>ul>li:hover> a{
+
     color: #fff;
-    font-family: "Arial";
+   
 }
 
 .category-project li:hover .proga:before {
