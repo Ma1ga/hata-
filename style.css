@@ -105,7 +105,7 @@ a.tw:hover {
 
 
 .social a {
-    margin-right: 24rem;
+    margin-right: 24px;
 }
 
 .contacts .icon {
@@ -362,7 +362,7 @@ aside {
 
 .wrapper .category-project ul {
     list-style: none;
-   
+
 
 }
 
@@ -417,15 +417,18 @@ aside {
     position: relative;
     padding: 15rem;
 }
+
 .category-project ul ul a {
     padding-left: 30px;
     color: #666666;
 }
+
 .category-project ul ul a:hover {
     background-color: #cecedd;
 }
+
 .category-project ul li {
-    
+
     background-color: #e4e4ec;
 }
 
@@ -434,10 +437,10 @@ aside {
     overflow: hidden;
 }
 
-.category-project>nav>ul>li:hover> a{
+.category-project>nav>ul>li:hover>a {
 
     color: #fff;
-   
+
 }
 
 .category-project li:hover .proga:before {
