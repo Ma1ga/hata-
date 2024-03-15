@@ -1,0 +1,49 @@
+html {
+    font-size: 1px;
+}
+
+body {
+    font-size: 14px;
+}
+
+h1 {
+    width: 100%;
+    font-size: 24px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.styles {
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.main-name {
+    font-size: 14px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+.main-contacts div {
+width: 30%;
+}
+.wrapper .main-contacts {
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.wrapper .main-contacts a {
+    
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
