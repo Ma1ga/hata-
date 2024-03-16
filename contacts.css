@@ -47,3 +47,15 @@ width: 30%;
     font-weight: bold;
     font-family: "Arial";
 }
+.office a:hover{
+    color: #fd8300;
+}
+.office a{
+    transition: 0.5s;
+}
+.consult a:hover{
+    color: #fd8300;
+}
+.consult a{
+    transition: 0.5s;
+}
