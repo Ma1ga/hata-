@@ -1,0 +1,39 @@
+html {
+    font-size: 1px;
+}
+
+
+.flex {
+    display: flex;
+}
+
+body {
+    font-size: 14rem;
+}
+
+.wrapper {
+
+    margin: auto;
+    max-width: 960px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+
+table thead tr td {
+
+    padding: 13px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1f1f56;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
