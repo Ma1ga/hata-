@@ -62,3 +62,13 @@ table tbody tr:hover {
 table tbody tr:hover td {
     color: #fff;
 }
+
+.rules {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #fd8300;
+}
+.rules:hover {
+    text-decoration: none;
+}
