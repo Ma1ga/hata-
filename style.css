@@ -553,3 +553,50 @@ figure {
 
     margin: 0;
 }
+
+@media screen and (min-width: 320px) {
+    .social {
+        display: flex;
+        text-align: center;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+.header-menu {
+    display: flex;
+    flex-direction: column;
+}
+.maininfo {
+    text-align: center;
+}
+  .wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .header-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper {
+        width: 100%;
+    
+      }
+      .wrapper {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+      }
+      
+    }
+    
