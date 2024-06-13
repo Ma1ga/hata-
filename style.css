@@ -553,33 +553,90 @@ figure {
 
     margin: 0;
 }
+@media (max-width: 768px) {
+    .header-menu .flex, .company .flex, .footer .flex {
+        flex-direction: column;
+        align-items: center;
+    }
 
-@media screen and (min-width: 320px) {
-    .social {
-        display: flex;
+    .contacts a, .email a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .header-menu ul, .footer-info1 ul, .footer-info2 ul {
         text-align: center;
     }
-    .menu {
-        display: flex;
+
+    .header-menu ul li, .footer-info1 ul li, .footer-info2 ul li {
+        margin: 5px 0;
+    }
+
+    .popular-project .project {
         flex-direction: column;
     }
-.header-menu {
-    display: flex;
-    flex-direction: column;
-}
-.maininfo {
-    text-align: center;
-}
-  .wrapper {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-  }
-  .project {
-    display: flex;
-    flex-direction: column;
-  }
 
+    .popular-project .project figure {
+        margin-bottom: 20px;
+    }
+
+    aside nav ul {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-menu .flex, .company .flex, .footer .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts a, .email a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .header-menu ul, .footer-info1 ul, .footer-info2 ul {
+        text-align: center;
+    }
+
+    .header-menu ul li, .footer-info1 ul li, .footer-info2 ul li {
+        margin: 5px 0;
+    }
+
+    .popular-project .project {
+        flex-direction: column;
+    }
+
+    .popular-project .project figure {
+        margin-bottom: 20px;
+    }
+
+    aside {
+        width: 100%;
+        text-align: center;
+    }
+
+    .category-project nav ul {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .banner {
+        height: 200px;
+    }
+
+    .banner .text p {
+        font-size: 14px;
+    }
+
+    .maininfo p {
+        font-size: 14px;
+    }
+
+    .popular-project .project figure h2 {
+        font-size: 16px;
+    }
 }
 
 
