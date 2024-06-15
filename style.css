@@ -585,10 +585,14 @@ figure {
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
     .header-menu .flex, .company .flex, .footer .flex {
         flex-direction: column;
         align-items: center;
+    }
+    .header-menu  .social {
+        text-align: right;
+        flex-direction: row;
     }
 
     .contacts a, .email a {
@@ -616,7 +620,11 @@ figure {
         width: 100%;
         text-align: center;
     }
-
+main .wrapper{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
     .category-project nav ul {
         padding-left: 0;
         text-align: center;
@@ -641,19 +649,38 @@ figure {
 
 
 @media screen and (min-width: 768px) {
-    .header-menu {
-        display: flex;
+    .header-menu .flex, .company .flex, .footer .flex {
+        
         flex-direction: column;
+        align-items: center;
     }
     .wrapper {
         width: 100%;
     
       }
+      .popular-project .project {
+        flex-direction: row;
+    }
       .wrapper {
         text-align: center;
         display: flex;
         flex-direction: row;
       }
       
+    }
+    @media screen and (min-width: 1024px) {
+        .header-menu .flex, .company .flex, .footer .flex {
+        
+            flex-direction: row;
+            
+        }
+        .header-menu .flex ul  {
+            gap: 10px;
+        }
+        main .wrapper{
+            display: flex;
+            flex-direction: row;
+        }
+
     }
     

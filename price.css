@@ -72,3 +72,71 @@ table tbody tr:hover td {
 .rules:hover {
     text-decoration: none;
 }
+@media (min-width: 320px) {
+    .header-menu .flex, .company .flex, .footer .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-menu  .social {
+        text-align: right;
+        flex-direction: row;
+    }
+
+    .contacts a, .email a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .header-menu ul, .footer-info1 ul, .footer-info2 ul {
+        text-align: center;
+    }
+
+    .header-menu ul li, .footer-info1 ul li, .footer-info2 ul li {
+        margin: 5px 0;
+    }
+
+    .popular-project .project {
+        flex-direction: column;
+    }
+
+    .popular-project .project figure {
+        margin-bottom: 20px;
+    }
+
+    aside {
+        width: 100%;
+        text-align: center;
+    }
+    main .wrapper{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+    .category-project nav ul {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .banner {
+        height: 200px;
+    }
+
+    .banner .text p {
+        font-size: 14px;
+    }
+
+    .maininfo p {
+        font-size: 14px;
+    }
+
+    .popular-project .project figure h2 {
+        font-size: 16px;
+    }
+    main table {
+        overflow: scroll;
+    }
+    .popular-project .flex{
+        display: flex;
+        flex-direction: column;
+    }
+}
