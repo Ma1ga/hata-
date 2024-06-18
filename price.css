@@ -73,6 +73,12 @@ table tbody tr:hover td {
     text-decoration: none;
 }
 @media (min-width: 320px) {
+    .table {
+        overflow: auto;
+    }
+    .wrapper {
+        text-align: center;
+    }
     .header-menu .flex, .company .flex, .footer .flex {
         flex-direction: column;
         align-items: center;
@@ -139,4 +145,10 @@ table tbody tr:hover td {
         display: flex;
         flex-direction: column;
     }
+
+}
+@media (min-width: 1024px) {
+.popular-project .flex {
+    flex-direction: row;
+}
 }

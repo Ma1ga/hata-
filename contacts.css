@@ -146,3 +146,120 @@ textarea {
     gap: 25px;
     align-items: center;
 }
+
+@media (min-width: 320px) {
+    .header-menu .flex, .company .flex, .footer .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-menu  .social {
+        text-align: right;
+        flex-direction: row;
+    }
+
+    .main-contacts div {
+        width: 100%;
+    }
+    .contacts a, .email a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .header-menu ul, .footer-info1 ul, .footer-info2 ul {
+        text-align: center;
+    }
+
+    .header-menu ul li, .footer-info1 ul li, .footer-info2 ul li {
+        margin: 5px 0;
+    }
+
+    .popular-project .project {
+        flex-direction: column;
+    }
+
+    .popular-project .project figure {
+        margin-bottom: 20px;
+    }
+
+    aside {
+        width: 100%;
+        text-align: center;
+    }
+main .wrapper{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+    .category-project nav ul {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .banner {
+        height: 200px;
+    }
+
+    .banner .text p {
+        font-size: 14px;
+    }
+
+    .maininfo p {
+        font-size: 14px;
+    }
+
+    .popular-project .project figure h2 {
+        font-size: 16px;
+    }
+
+    main .wrapper .main-contacts {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .header-menu .flex, .company .flex, .footer .flex {
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper {
+        width: 100%;
+    
+      }
+      .popular-project .project {
+        flex-direction: row;
+    }
+      .wrapper {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+      }
+      .wrapper.every {
+        justify-content: center;
+      }
+    }
+    @media screen and (min-width: 1024px) {
+        
+        .header-menu .flex, .company .flex, .footer .flex {
+        
+            flex-direction: row;
+            
+        }
+        .main-contacts {
+            display: flex;
+            
+        }
+        .header-menu .flex ul  {
+            gap: 10px;
+        }
+        main .wrapper{
+            display: flex;
+            flex-direction: row;
+        }
+        main .wrapper .main-contacts {
+            display: flex;
+            flex-direction: row;
+        }
+    }
