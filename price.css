@@ -23,6 +23,13 @@ table {
     width: 100%;
 
 }
+.time {
+    font-size: 14rem;
+    line-height: 24rem;
+    color: #666666;
+    font-family: "Arial";
+    margin-bottom: 20px;
+}
 
 
 table thead tr {
@@ -64,10 +71,14 @@ table tbody tr:hover td {
 }
 
 .rules {
-    font-size: 14px;
-    line-height: 24px;
+    display: inline-block;
+    font-size: 14rem;
+    line-height: 24rem;
     text-decoration: underline;
     color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+    margin-bottom: 33px;
 }
 .rules:hover {
     text-decoration: none;
@@ -78,6 +89,12 @@ table tbody tr:hover td {
     }
     .wrapper {
         text-align: center;
+    }
+    .header-menu .wrapper {
+        padding: 0px 10px;
+        display: flex;
+        justify-content: space-between;
+         flex-direction: row;
     }
     .header-menu .flex, .company .flex, .footer .flex {
         flex-direction: column;
@@ -148,6 +165,9 @@ table tbody tr:hover td {
 
 }
 @media (min-width: 1024px) {
+    main  {
+        text-align: left;
+    }
 .popular-project .flex {
     flex-direction: row;
 }

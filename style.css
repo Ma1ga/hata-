@@ -586,10 +586,34 @@ figure {
 }
 
 @media (min-width: 320px) {
-    .header-menu .flex, .company .flex, .footer .flex {
-        flex-direction: column;
-        align-items: center;
+    .header-menu  {
+        text-align: left;
     }
+    .header-menu .wrapper {
+        padding: 0px 10px;
+        display: flex;
+        justify-content: space-between;
+         flex-direction: row;
+    }
+    .burger-menu {
+        
+        width: 25px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .burger-menu span {
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+    }
+    .menu {
+        display: none;
+    }
+    
+
     .header-menu  .social {
         text-align: center;
         flex-direction: row;
@@ -652,7 +676,12 @@ main .wrapper{
 
 
 @media screen and (min-width: 768px) {
-
+    .menu {
+        display: block;
+    }
+    .burger-menu {
+        display: none;
+    }
      .company .flex, .footer .flex {
         
         flex-direction: column;
@@ -678,13 +707,21 @@ main .wrapper{
       
     }
     @media screen and (min-width: 1024px) {
+        main .wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 53px;
+        }
         .header-menu .flex, .company .flex, .footer .flex {
         
             flex-direction: row;
             
         }
+        .wrapper .main-main {
+            text-align: left;
+        }
         .header-menu .flex ul  {
-            gap: 10px;
+            gap: 20px;
         }
         main .wrapper{
             display: flex;

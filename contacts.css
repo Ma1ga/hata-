@@ -152,6 +152,12 @@ textarea {
         flex-direction: column;
         align-items: center;
     }
+    .header-menu .wrapper {
+        padding: 0px 10px;
+        display: flex;
+        justify-content: space-between;
+         flex-direction: row;
+    }
     .header-menu  .social {
         text-align: right;
         flex-direction: row;
@@ -241,7 +247,9 @@ main .wrapper{
       }
     }
     @media screen and (min-width: 1024px) {
-        
+        .main-contacts div {
+            width: 25%;
+        }
         .header-menu .flex, .company .flex, .footer .flex {
         
             flex-direction: row;
