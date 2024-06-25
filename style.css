@@ -556,9 +556,7 @@ figure {
 
 
 @media (min-width: 320px) {
-    .header-menu  {
-        text-align: left;
-    }
+
     .header-menu .wrapper {
         position: relative;
         padding: 0px 10px;
@@ -625,6 +623,11 @@ figure {
         margin: 5px 0;
     }
 
+    .company .flex, .footer .flex {
+        align-items: center;
+        flex-direction: column;
+    }
+
     .popular-project .project {
         flex-direction: column;
     }
@@ -669,19 +672,7 @@ main .wrapper{
 
 
 @media screen and (min-width: 768px) {
-    .header-menu .flex, .company .flex, .footer .flex {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contacts a, .email a {
-        display: block;
-        margin: 5px 0;
-    }
-
-    .header-menu ul, .footer-info1 ul, .footer-info2 ul {
-        text-align: center;
-    }
+  
 
     .header-menu ul li, .footer-info1 ul li, .footer-info2 ul li {
         margin: 5px 0;
@@ -736,6 +727,10 @@ main .wrapper{
             display: flex;
             justify-content: space-between;
             gap: 53px;
+        }
+        .company .flex, .footer .flex {
+            align-items: unset;
+            flex-direction: unset;
         }
         .header-menu .flex, .company .flex, .footer .flex {
         
