@@ -29,15 +29,20 @@ sup {
 
     justify-content: space-between;
 }
+.buttom {
+    display: flex;
+    justify-content: center;
+}
 
 .buttom a {
+    text-align: center;
     display: inline-block;
     border-radius: 25rem;
     background-color: #fff;
     text-decoration: none;
-    padding: 15rem 30rem;
+    padding: 20rem 30rem;
     font-size: 16rem;
-    line-height: 24rem;
+    line-height: 25rem;
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
@@ -601,6 +606,7 @@ figure {
     }
 
     .menu.active-menu {
+ 
         display: block;
     }
     
@@ -616,6 +622,8 @@ figure {
     }
 
     .header-menu ul, .footer-info1 ul, .footer-info2 ul {
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
 

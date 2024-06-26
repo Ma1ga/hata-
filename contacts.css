@@ -95,13 +95,16 @@ form input {
 }
 
 .tel-name {
+    
     display: flex;
     justify-content: space-between;
     margin-bottom: 9px;
+    flex-direction: column;
+    gap: 9px;
 }
 
 .tel-name label {
-    width: 49%;
+    width: 100%;
 }
 
 .tel-name input {
@@ -280,6 +283,18 @@ main .wrapper{
         display: flex;
         flex-direction: row;
       }
+      .tel-name {
+    
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 9px;
+        flex-direction: row;
+        gap: 0px;
+    }
+    
+    .tel-name label {
+        width: 49%;
+    }
       .wrapper.every {
         justify-content: center;
       }
