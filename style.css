@@ -563,11 +563,16 @@ figure {
 @media (min-width: 320px) {
 
     .header-menu .wrapper {
+        flex-direction: column;
+        flex-wrap: wrap;
         position: relative;
         padding: 0px 10px;
         display: flex;
         justify-content: center;
     }
+.header-menu .wrapper .social {
+    justify-content: center;
+}
 
     .burger-menu {
         position: absolute;
