@@ -29,6 +29,7 @@ sup {
 
     justify-content: space-between;
 }
+
 .buttom {
     display: flex;
     justify-content: center;
@@ -127,6 +128,10 @@ a.tw:hover {
     left: -27px;
     background-image: url(img/img\ social3.png);
     background-position: 67px -24px;
+}
+
+.company .wrapper .email .mail {
+    text-decoration: underline;
 }
 
 .email .mail {
@@ -324,11 +329,11 @@ hr {
 
 
 
-.house a {
+.popular-project a {
     text-decoration: none;
 }
 
-.house a:hover {
+.popular-project a:hover h2 {
     text-decoration: underline;
 }
 
@@ -563,12 +568,19 @@ figure {
 @media (min-width: 320px) {
 
     .header-menu .wrapper {
+        flex-direction: column;
+        flex-wrap: wrap;
         position: relative;
         padding: 0px 10px;
         display: flex;
         justify-content: center;
     }
-
+.header-menu .wrapper .social {
+    justify-content: center;
+}
+.company .wrapper {
+    flex-wrap: wrap;
+}
     .burger-menu {
         position: absolute;
         top: 8px;
@@ -592,9 +604,11 @@ figure {
         top: 50%;
         transform: rotate(45deg);
     }
+
     .burger-menu.active-burger span:nth-child(2) {
         opacity: 0;
     }
+
     .burger-menu.active-burger span:last-child {
         position: absolute;
         top: 50%;
@@ -606,32 +620,38 @@ figure {
     }
 
     .menu.active-menu {
- 
+
         display: block;
     }
-    
 
-    .header-menu  .social {
+
+    .header-menu .social {
         text-align: center;
         flex-direction: row;
     }
 
-    .contacts a, .email a {
+    .contacts a,
+    .email a {
         display: block;
         margin: 5px 0;
     }
 
-    .header-menu ul, .footer-info1 ul, .footer-info2 ul {
+    .header-menu ul,
+    .footer-info1 ul,
+    .footer-info2 ul {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
 
-    .header-menu ul li, .footer-info1 ul li, .footer-info2 ul li {
+    .header-menu ul li,
+    .footer-info1 ul li,
+    .footer-info2 ul li {
         margin: 5px 0;
     }
 
-    .company .flex, .footer .flex {
+    .company .flex,
+    .footer .flex {
         align-items: center;
         flex-direction: column;
     }
@@ -648,11 +668,13 @@ figure {
         width: 100%;
         text-align: center;
     }
-main .wrapper{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
+
+    main .wrapper {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
     .category-project nav ul {
         padding-left: 0;
         text-align: center;
@@ -673,16 +695,76 @@ main .wrapper{
     .popular-project .project figure h2 {
         font-size: 16px;
     }
+
     .main-main {
         width: 100%;
     }
 }
 
+@media screen and (min-width: 425px) {
+    .house {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    aside {
+        width: 80%;
+        margin: auto;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
-  
+    .house {
+        display: block;
+    }
 
-    .header-menu ul li, .footer-info1 ul li, .footer-info2 ul li {
+    .company .wrapper.flex>div {
+        width: 49%;
+    }
+    .company .wrapper.flex .logo {
+        text-align: center;
+    }
+    .header-menu .wrapper {
+        padding: unset;
+    }
+
+    .company .flex,
+    .footer .flex {
+        align-items: unset;
+        flex-direction: unset;
+        gap: 5px;
+    }
+
+    .header-menu .wrapper .menu .menu-full {
+        gap: 20px;
+
+    }
+
+    .header-menu .wrapper {
+        justify-content: space-between;
+    }
+
+    .header-menu .wrapper .social {
+        text-align: center;
+    }
+
+    .header-menu .flex,
+    .company .flex,
+    .footer .flex {
+        text-align: right;
+        gap: 10px;
+        flex-direction: row;
+
+    }
+
+    .header-menu ul li,
+    .footer-info1 ul li,
+    .footer-info2 ul li {
         margin: 5px 0;
     }
 
@@ -697,64 +779,105 @@ main .wrapper{
     aside nav ul {
         padding-left: 20px;
     }
+
     .menu {
         display: block;
     }
+
     .burger-menu {
         display: none;
     }
-     .company .flex, .footer .flex {
-        
-        flex-direction: column;
+
+    .company .flex,
+    .footer .flex {
+        flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
+    }
+
+    .company .wrapper .buttom {
+        display: flex;
+        
+        text-align: right;
+    }
+    
+    .popular-project .project {
+        flex-direction: row;
     }
     
     .wrapper {
         width: 100%;
-    
-      }
-      .popular-project .project {
-        flex-direction: row;
-    }
-      .wrapper {
         text-align: center;
         display: flex;
         flex-direction: row;
-      }
-      .project {
+    }
+
+    .project {
         display: flex;
         justify-content: space-around;
-      }
-      
     }
-    @media screen and (min-width: 1024px) {
-        .header-menu .wrapper {
-            justify-content: space-between;
-        }
-        main .wrapper {
-            display: flex;
-            justify-content: space-between;
-            gap: 53px;
-        }
-        .company .flex, .footer .flex {
-            align-items: unset;
-            flex-direction: unset;
-        }
-        .header-menu .flex, .company .flex, .footer .flex {
-        
-            flex-direction: row;
-            
-        }
-        .wrapper .main-main {
-            text-align: left;
-        }
-        .header-menu .flex ul  {
-            gap: 20px;
-        }
-        main .wrapper{
-            display: flex;
-            flex-direction: row;
-        }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .company .wrapper.flex>div {
+        width: fit-content;
+    }
+
+    aside {
+        text-align: left;
+        min-width: 220px;
+    }
+
+    .header-menu .flex,
+    .company .flex,
+    .footer .flex {
+        text-align: unset;
+    }
+
+    .footer .wrapper div ul {
+        text-align: left;
+    }
+
+    .wrapper {
+        text-align: unset;
+    }
+
+    .header-menu .wrapper {
+        justify-content: space-between;
+    }
+
+    main .wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 53px;
+    }
+
+    .company .flex,
+    .footer .flex {
+        align-items: unset;
+        flex-direction: unset;
+    }
+
+    .header-menu .flex,
+    .company .flex,
+    .footer .flex {
+
+        flex-direction: row;
 
     }
-    
+
+    .wrapper .main-main {
+        text-align: left;
+    }
+
+    .header-menu .flex ul {
+        gap: 20px;
+    }
+
+    main .wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+}

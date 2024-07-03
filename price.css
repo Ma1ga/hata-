@@ -89,8 +89,12 @@ table tbody tr:hover td {
         padding: 0px 10px;
         display: flex;
         justify-content: center;
+        
     }
-
+header .company  {
+    display: flex;
+    flex-wrap: wrap;
+}
     .burger-menu {
         position: absolute;
         top: 8px;
