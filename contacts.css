@@ -205,6 +205,8 @@ textarea {
         transform: rotate(-45deg);
     }
     .main-contacts div {
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
     .contacts a, .email a {
@@ -232,11 +234,11 @@ textarea {
         width: 100%;
         text-align: center;
     }
-main .wrapper{
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-}
+    main .wrapper{
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    }
     .category-project nav ul {
         padding-left: 0;
         text-align: center;
@@ -322,5 +324,6 @@ main .wrapper{
         main .wrapper .main-contacts {
             display: flex;
             flex-direction: row;
+            text-align: left;
         }
     }
