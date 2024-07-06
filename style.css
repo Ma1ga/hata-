@@ -41,7 +41,7 @@ sup {
     border-radius: 25rem;
     background-color: #fff;
     text-decoration: none;
-    padding: 20rem 30rem;
+    padding: 15rem 30rem;
     font-size: 16rem;
     line-height: 25rem;
     color: #25252c;
@@ -823,8 +823,20 @@ figure {
     .company .wrapper.flex>div {
         width: fit-content;
     }
+    .company .wrapper .buttom {
+        display: block;
+    }
+    .company .flex {
+        align-items: center;
+    }
+
+
+.company .wrapper.flex .email.flex {
+text-align: left;
+}
 
     aside {
+        margin: 0;
         text-align: left;
         min-width: 220px;
     }
