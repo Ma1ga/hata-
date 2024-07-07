@@ -129,8 +129,12 @@ header .company  {
         transform: rotate(-45deg);
     }
     .table {
+        
         overflow: auto;
-    }
+     }
+     table {
+        width: 600px;
+     }
     .wrapper {
         text-align: center;
     }
@@ -204,6 +208,16 @@ header .company  {
     }
     .popular-project .flex{
         display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (min-width: 425px) {
+    .house {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
         flex-direction: column;
     }
 

@@ -312,7 +312,7 @@ main .wrapper {
 
 .maininfo a {
     display: inline-block;
-    margin-bottom: 25rem;
+    margin-bottom: 33rem;
     font-size: 14rem;
     line-height: 24rem;
     text-decoration: underline;
@@ -719,7 +719,7 @@ figure {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
     .house {
         display: block;
     }
@@ -821,6 +821,12 @@ figure {
 }
 
 @media screen and (min-width: 1024px) {
+
+    .header-menu .flex, .company .flex, .footer .flex {
+        text-align: right;
+        gap: unset;
+        flex-direction: row;
+    }
     .company .wrapper.flex>div {
         width: fit-content;
     }
@@ -833,6 +839,8 @@ figure {
 
 
 .company .wrapper.flex .email.flex {
+    align-items: unset;
+
 text-align: left;
 }
 
@@ -849,6 +857,7 @@ text-align: left;
     }
 
     .footer .wrapper div ul {
+
         text-align: left;
     }
 
@@ -865,10 +874,11 @@ text-align: left;
         justify-content: space-between;
         gap: 53px;
     }
-
+    aside ul li:last-child  {
+        border-bottom: none;
+    }
     .company .flex,
     .footer .flex {
-        align-items: unset;
         flex-direction: unset;
     }
 
