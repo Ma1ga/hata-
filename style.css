@@ -375,7 +375,9 @@ aside {
 
 
 }
-
+    aside ul li:last-child a {
+        box-shadow: none;
+    }
 .category-project li ul {
     display: none;
 }
