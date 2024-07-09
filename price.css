@@ -133,7 +133,7 @@ header .company  {
         overflow: auto;
      }
      table {
-        width: 600px;
+        min-width: 600px;
      }
     .wrapper {
         text-align: center;
