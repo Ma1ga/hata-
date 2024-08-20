@@ -86,7 +86,11 @@ h1 {
 /* form */
 .form-name-main {
     max-width: 467px;
-    
+
+}
+
+.form-name-main h2 {
+    text-align: left;
 }
 
 form input {
@@ -95,7 +99,7 @@ form input {
 }
 
 .tel-name {
-    
+
     display: flex;
     justify-content: space-between;
     margin-bottom: 9px;
@@ -127,13 +131,15 @@ textarea {
     max-height: 250px;
     margin-bottom: 9px;
 }
+
 .every {
     display: flex;
     justify-content: space-between;
     gap: 27px;
 }
+
 .submit-form button {
-    
+
     border-radius: 21px;
     background-color: #fd8300;
     border: none;
@@ -144,6 +150,12 @@ textarea {
     font-family: "Arial";
     text-align: center;
 }
+
+.submit-form button:hover {
+    color: #c5c5d4;
+    background-color: #d96b00;
+}
+
 .submit-checkbox {
     display: flex;
     gap: 25px;
@@ -151,17 +163,22 @@ textarea {
 }
 
 @media (min-width: 320px) {
-    .header-menu .flex, .company .flex, .footer .flex {
+
+    .header-menu .flex,
+    .company .flex,
+    .footer .flex {
         flex-direction: column;
         align-items: center;
     }
+
     .header-menu .wrapper {
         padding: 0px 10px;
         display: flex;
         justify-content: space-between;
-         flex-direction: row;
+        flex-direction: row;
     }
-    .header-menu  .social {
+
+    .header-menu .social {
         text-align: right;
         flex-direction: row;
     }
@@ -196,29 +213,38 @@ textarea {
         top: 50%;
         transform: rotate(45deg);
     }
+
     .burger-menu.active-burger span:nth-child(2) {
         opacity: 0;
     }
+
     .burger-menu.active-burger span:last-child {
         position: absolute;
         top: 50%;
         transform: rotate(-45deg);
     }
+
     .main-contacts div {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    .contacts a, .email a {
+
+    .contacts a,
+    .email a {
         display: block;
         margin: 5px 0;
     }
 
-    .header-menu ul, .footer-info1 ul, .footer-info2 ul {
+    .header-menu ul,
+    .footer-info1 ul,
+    .footer-info2 ul {
         text-align: center;
     }
 
-    .header-menu ul li, .footer-info1 ul li, .footer-info2 ul li {
+    .header-menu ul li,
+    .footer-info1 ul li,
+    .footer-info2 ul li {
         margin: 5px 0;
     }
 
@@ -230,15 +256,21 @@ textarea {
         margin-bottom: 20px;
     }
 
+    .decoration-none {
+        text-decoration: none;
+    }
+
     aside {
         width: 100%;
         text-align: center;
     }
-    main .wrapper{
+
+    main .wrapper {
         text-align: right;
         display: flex;
         flex-direction: column;
     }
+
     .category-project nav ul {
         padding-left: 0;
         text-align: center;
@@ -264,66 +296,92 @@ textarea {
         display: flex;
         flex-direction: column;
     }
+
+    .styles-input {
+        font-size: 13px;
+        color: #9999a6;
+        font-style: italic;
+        font-family: "Arial";
+        border-radius: 3px;
+        background-color: #ffffff;
+        border: 1px solid #c5c5d4;
+    }
 }
 
 
 @media screen and (min-width: 768px) {
-    .header-menu .flex, .company .flex, .footer .flex {
-        
+
+    .header-menu .flex,
+    .company .flex,
+    .footer .flex {
+
         flex-direction: column;
         align-items: center;
     }
+
     .wrapper {
         width: 100%;
-    
-      }
-      .popular-project .project {
+
+    }
+
+    .popular-project .project {
         flex-direction: row;
     }
-      .wrapper {
+
+    .wrapper {
         text-align: center;
         display: flex;
         flex-direction: row;
-      }
-      .tel-name {
-    
+    }
+
+    .tel-name {
+
         display: flex;
         justify-content: space-between;
         margin-bottom: 9px;
         flex-direction: row;
         gap: 0px;
     }
-    
+
     .tel-name label {
         width: 49%;
     }
-      .wrapper.every {
+
+    .wrapper.every {
         justify-content: center;
-      }
     }
-    @media screen and (min-width: 1024px) {
-        .main-contacts div {
-            width: 25%;
-        }
-        .header-menu .flex, .company .flex, .footer .flex {
-        
-            flex-direction: row;
-            
-        }
-        .main-contacts {
-            display: flex;
-            
-        }
-        .header-menu .flex ul  {
-            gap: 10px;
-        }
-        main .wrapper{
-            display: flex;
-            flex-direction: row;
-        }
-        main .wrapper .main-contacts {
-            display: flex;
-            flex-direction: row;
-            text-align: left;
-        }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-contacts div {
+        width: 25%;
     }
+
+    .header-menu .flex,
+    .company .flex,
+    .footer .flex {
+
+        flex-direction: row;
+
+    }
+
+    .main-contacts {
+        display: flex;
+
+    }
+
+    .header-menu .flex ul {
+        gap: 10px;
+    }
+
+    main .wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main .wrapper .main-contacts {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+}

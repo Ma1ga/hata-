@@ -375,9 +375,11 @@ aside {
 
 
 }
-    aside ul li:last-child a {
-        box-shadow: none;
-    }
+
+aside ul li:last-child a {
+    box-shadow: none;
+}
+
 .category-project li ul {
     display: none;
 }
@@ -577,12 +579,15 @@ figure {
         display: flex;
         justify-content: center;
     }
-.header-menu .wrapper .social {
-    justify-content: center;
-}
-.company .wrapper {
-    flex-wrap: wrap;
-}
+
+    .header-menu .wrapper .social {
+        justify-content: center;
+    }
+
+    .company .wrapper {
+        flex-wrap: wrap;
+    }
+
     .burger-menu {
         position: absolute;
         top: 8px;
@@ -696,7 +701,10 @@ figure {
 
     .popular-project .project figure h2 {
         font-size: 16px;
+        
         color: #1f1f56;
+        font-weight: bold;
+        font-family: "Arial";
     }
 
     .main-main {
@@ -729,9 +737,11 @@ figure {
     .company .wrapper.flex>div {
         width: 49%;
     }
+
     .company .wrapper.flex .logo {
         text-align: center;
     }
+
     .header-menu .wrapper {
         padding: unset;
     }
@@ -800,14 +810,16 @@ figure {
 
     .company .wrapper .buttom {
         display: flex;
-        
+
         text-align: right;
     }
-    
+
     .popular-project .project {
         flex-direction: row;
     }
-    
+    .start {
+        align-items: flex-start;
+    }
     .wrapper {
         width: 100%;
         text-align: center;
@@ -824,27 +836,32 @@ figure {
 
 @media screen and (min-width: 1024px) {
 
-    .header-menu .flex, .company .flex, .footer .flex {
+    .header-menu .flex,
+    .company .flex,
+    .footer .flex {
         text-align: right;
         gap: unset;
         flex-direction: row;
     }
+
     .company .wrapper.flex>div {
         width: fit-content;
     }
+
     .company .wrapper .buttom {
         display: block;
     }
+
     .company .flex {
         align-items: center;
     }
 
 
-.company .wrapper.flex .email.flex {
-    align-items: unset;
+    .company .wrapper.flex .email.flex {
+        align-items: unset;
 
-text-align: left;
-}
+        text-align: left;
+    }
 
     aside {
         margin: 0;
@@ -876,9 +893,11 @@ text-align: left;
         justify-content: space-between;
         gap: 53px;
     }
-    aside ul li:last-child  {
+
+    aside ul li:last-child {
         border-bottom: none;
     }
+
     .company .flex,
     .footer .flex {
         flex-direction: unset;
@@ -887,7 +906,7 @@ text-align: left;
     .header-menu .flex,
     .company .flex,
     .footer .flex {
-
+        align-items: flex-start;
         flex-direction: row;
 
     }
