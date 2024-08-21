@@ -110,8 +110,9 @@ a.tw:hover {
 }
 
 
-.social a {
-    margin-right: 24px;
+.social {
+    gap: 24px;
+    display: flex;
 }
 
 .contacts .icon {
@@ -701,7 +702,7 @@ figure {
 
     .popular-project .project figure h2 {
         font-size: 16px;
-        
+
         color: #1f1f56;
         font-weight: bold;
         font-family: "Arial";
@@ -743,6 +744,7 @@ figure {
     }
 
     .header-menu .wrapper {
+        width: calc(100% - 20px);
         padding: unset;
     }
 
@@ -760,6 +762,11 @@ figure {
 
     .header-menu .wrapper {
         justify-content: space-between;
+    }
+
+    .header-menu .wrapper .social {
+        gap: 24px;
+        display: flex;
     }
 
     .header-menu .wrapper .social {
@@ -808,6 +815,9 @@ figure {
         align-items: center;
     }
 
+    .footer .wrapper.flex.start{
+        width: calc(100% - 20px);
+    }
     .company .wrapper .buttom {
         display: flex;
 
@@ -817,9 +827,11 @@ figure {
     .popular-project .project {
         flex-direction: row;
     }
+
     .start {
         align-items: flex-start;
     }
+
     .wrapper {
         width: 100%;
         text-align: center;

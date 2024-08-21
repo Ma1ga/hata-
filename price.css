@@ -23,6 +23,7 @@ table {
     width: 100%;
 
 }
+
 .time {
     font-size: 14rem;
     line-height: 24rem;
@@ -31,9 +32,14 @@ table {
     margin-bottom: 20px;
 }
 
-.house {
-cursor: pointer;
+.wrapper.main-wrapper {
+    width: calc(100% - 20px);
 }
+
+.house {
+    cursor: pointer;
+}
+
 table thead tr {
 
 
@@ -82,21 +88,25 @@ table tbody tr:hover td {
     font-family: "Arial";
     margin-bottom: 33px;
 }
+
 .rules:hover {
     text-decoration: none;
 }
+
 @media (min-width: 320px) {
     .header-menu .wrapper {
         position: relative;
         padding: 0px 10px;
         display: flex;
         justify-content: center;
-        
+
     }
-header .company  {
-    display: flex;
-    flex-wrap: wrap;
-}
+
+    header .company {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .burger-menu {
         position: absolute;
         top: 8px;
@@ -120,49 +130,64 @@ header .company  {
         top: 50%;
         transform: rotate(45deg);
     }
+
     .burger-menu.active-burger span:nth-child(2) {
         opacity: 0;
     }
+
     .burger-menu.active-burger span:last-child {
         position: absolute;
         top: 50%;
         transform: rotate(-45deg);
     }
+
     .table {
-        
+
         overflow: auto;
-     }
-     table {
+    }
+
+    table {
         min-width: 600px;
-     }
+    }
+
     .wrapper {
         text-align: center;
     }
+
     .header-menu .wrapper {
         padding: 0px 10px;
         display: flex;
         justify-content: space-between;
-         flex-direction: row;
+        flex-direction: row;
     }
-    .header-menu .flex, .company .flex, .footer .flex {
+
+    .header-menu .flex,
+    .company .flex,
+    .footer .flex {
         flex-direction: column;
         align-items: center;
     }
-    .header-menu  .social {
+
+    .header-menu .social {
         text-align: right;
         flex-direction: row;
     }
 
-    .contacts a, .email a {
+    .contacts a,
+    .email a {
         display: block;
         margin: 5px 0;
     }
 
-    .header-menu ul, .footer-info1 ul, .footer-info2 ul {
+    .header-menu ul,
+    .footer-info1 ul,
+    .footer-info2 ul {
         text-align: center;
     }
 
-    .header-menu ul li, .footer-info1 ul li, .footer-info2 ul li {
+    .header-menu ul li,
+    .footer-info1 ul li,
+    .footer-info2 ul li {
         margin: 5px 0;
     }
 
@@ -178,11 +203,13 @@ header .company  {
         width: 100%;
         text-align: center;
     }
-    main .wrapper{
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-}
+
+    main .wrapper {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    }
+
     .category-project nav ul {
         padding-left: 0;
         text-align: center;
@@ -203,15 +230,31 @@ header .company  {
     .popular-project .project figure h2 {
         font-size: 16px;
     }
+
     main table {
         overflow: scroll;
     }
-    .popular-project .flex{
+
+    .popular-project .flex {
         display: flex;
         flex-direction: column;
     }
 
 }
+
+@media screen and (min-width: 768px) {
+    .wrapper .popular-project .flex {
+        flex-wrap: wrap;
+        flex-direction: unset;
+
+    }
+
+    .house {
+        width: 45%;
+
+    }
+}
+
 @media screen and (min-width: 425px) {
     .house {
         display: flex;
@@ -222,11 +265,20 @@ header .company  {
     }
 
 }
+
 @media (min-width: 1024px) {
-    main  {
+    .house {
+        width: fit-content;
+        
+    }
+    .wrapper .popular-project .flex{
+        flex-wrap: nowrap;
+    }
+    main {
         text-align: left;
     }
-.popular-project .flex {
-    flex-direction: row;
-}
+
+    .popular-project .flex {
+        flex-direction: row;
+    }
 }
