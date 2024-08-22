@@ -678,6 +678,7 @@ figure {
     }
 
     main .wrapper {
+        width: 90%;
         text-align: center;
         display: flex;
         flex-direction: column;

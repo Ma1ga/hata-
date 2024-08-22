@@ -33,7 +33,8 @@ table {
 }
 
 .wrapper.main-wrapper {
-    width: calc(100% - 20px);
+    width: 90%;
+    /* width: calc(100% - 20px); */
 }
 
 .house {

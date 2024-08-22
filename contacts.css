@@ -131,7 +131,9 @@ textarea {
     max-height: 250px;
     margin-bottom: 9px;
 }
-
+.text {
+    padding: 0 9px;
+}
 .every {
     display: flex;
     justify-content: space-between;
@@ -201,7 +203,8 @@ textarea {
         justify-content: space-between;
     }
     .wrapper.every{
-        width: calc(100% - 20px);
+        width: 90%;
+        /* width: calc(100% - 20px); */
     }
     .form-name-main {
         margin: auto;
@@ -272,6 +275,7 @@ textarea {
     }
 
     main .wrapper {
+        
         text-align: right;
         display: flex;
         flex-direction: column;
