@@ -919,9 +919,12 @@ figure {
     .header-menu .flex,
     .company .flex,
     .footer .flex {
-        align-items: flex-start;
+        
         flex-direction: row;
 
+    }
+    .social.flex {
+        align-items: flex-start;
     }
 
     .wrapper .main-main {
