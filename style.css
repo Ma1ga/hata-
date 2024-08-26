@@ -552,6 +552,7 @@ footer .email a:hover {
 }
 
 footer .wrapper .email {
+    align-items: start;
     flex-direction: column;
 
 }
@@ -817,6 +818,7 @@ figure {
     }
 
     .footer .wrapper.flex.start{
+        align-items: start;
         width: calc(100% - 20px);
     }
     .company .wrapper .buttom {
