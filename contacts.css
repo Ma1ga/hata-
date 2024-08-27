@@ -21,7 +21,9 @@ h1 {
     color: #666666;
     font-family: "Arial";
 }
-
+.manager{
+    margin: 8px;
+}
 .main-name {
     font-size: 14px;
     line-height: 24px;
@@ -238,7 +240,9 @@ textarea {
         flex-direction: column;
         width: 100%;
     }
-
+    .submit-checkbox{
+        flex-direction: column;
+    }
     .contacts a,
     .email a {
         display: block;
@@ -337,7 +341,9 @@ textarea {
     .popular-project .project {
         flex-direction: row;
     }
-
+    .submit-checkbox{
+        flex-direction: row;
+    }
     .wrapper {
         text-align: center;
         display: flex;
