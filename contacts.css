@@ -134,7 +134,7 @@ textarea {
     margin-bottom: 9px;
 }
 .text {
-    padding: 0 9px;
+    padding: 10px 9px 0;
 }
 .every {
     display: flex;
