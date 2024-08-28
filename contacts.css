@@ -159,7 +159,57 @@ textarea {
     color: #c5c5d4;
     background-color: #d96b00;
 }
-
+.checkbox-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="checkbox"] {
+    display: none; /* Скрываем стандартный чекбокс */
+  }
+  
+  .custom-checkbox {
+    position: relative;
+    padding-left: 30px; /* Создаем пространство для кастомного чекбокса */
+    cursor: pointer;
+    line-height: 1.5;
+  }
+  
+  .custom-checkbox::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #333; 
+    background: #fff; 
+    border-radius: 3px; 
+  }
+  
+  input[type="checkbox"]:checked + .custom-checkbox::before {
+    background: #007bff; 
+    border-color: #007bff; 
+  }
+  
+  .custom-checkbox::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    width: 8px;
+    height: 4px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+  }
+  
+  input[type="checkbox"]:checked + .custom-checkbox::after {
+    opacity: 1;
+  }
+  
 .submit-checkbox {
     display: flex;
     gap: 25px;

@@ -23,8 +23,13 @@ table {
     width: 100%;
 
 }
-
-.time {
+.table {
+    border-radius: 3px;
+}
+.timers {
+    width: 45%;
+}
+.time { 
     font-size: 14rem;
     line-height: 24rem;
     color: #666666;
@@ -68,6 +73,7 @@ table tbody tr td {
     font-size: 14px;
     line-height: 24px;
     color: #666666;
+    font-family: "Arial";
 }
 
 table tbody tr:hover {

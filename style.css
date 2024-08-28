@@ -523,15 +523,7 @@ footer .wrapper .contacts {
 footer .wrapper .contacts a:hover {
     color: #fd8300;
 }
-.infos::before{
-    content: '';
-    position: absolute;
-    width: 1px;
-    height: 51px;
-    background: #e4e4ec;
-    top: calc(50% - 186px);
-    left: 49%;
-}
+
 
 footer .contacts .tell {
     position: relative;
