@@ -21,9 +21,11 @@ h1 {
     color: #666666;
     font-family: "Arial";
 }
-.manager{
+
+.manager {
     margin: 8px;
 }
+
 .main-name {
     font-size: 14px;
     line-height: 24px;
@@ -74,6 +76,11 @@ h1 {
     overflow: hidden;
     margin-top: 34px;
 
+
+}
+
+.company {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -133,9 +140,11 @@ textarea {
     max-height: 250px;
     margin-bottom: 9px;
 }
+
 .text {
     padding: 10px 9px 0;
 }
+
 .every {
     display: flex;
     justify-content: space-between;
@@ -159,40 +168,43 @@ textarea {
     color: #c5c5d4;
     background-color: #d96b00;
 }
+
 .checkbox-form {
     display: flex;
     align-items: center;
-  }
-  
-  input[type="checkbox"] {
-    display: none; /* Скрываем стандартный чекбокс */
-  }
-  
-  .custom-checkbox {
+}
+
+input[type="checkbox"] {
+    display: none;
+    /* Скрываем стандартный чекбокс */
+}
+
+.custom-checkbox {
     position: relative;
-    padding-left: 30px; /* Создаем пространство для кастомного чекбокса */
+    padding-left: 30px;
+    /* Создаем пространство для кастомного чекбокса */
     cursor: pointer;
     line-height: 1.5;
-  }
-  
-  .custom-checkbox::before {
+}
+
+.custom-checkbox::before {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
     width: 15px;
     height: 15px;
-    border: 1px solid #333; 
-    background: #fff; 
-    border-radius: 3px; 
-  }
-  
-  input[type="checkbox"]:checked + .custom-checkbox::before {
-    background: #007bff; 
-    border-color: #007bff; 
-  }
-  
-  .custom-checkbox::after {
+    border: 1px solid #333;
+    background: #fff;
+    border-radius: 3px;
+}
+
+input[type="checkbox"]:checked+.custom-checkbox::before {
+    background: #007bff;
+    border-color: #007bff;
+}
+
+.custom-checkbox::after {
     content: "";
     position: absolute;
     left: 4px;
@@ -204,12 +216,12 @@ textarea {
     border-right: none;
     transform: rotate(-45deg);
     opacity: 0;
-  }
-  
-  input[type="checkbox"]:checked + .custom-checkbox::after {
+}
+
+input[type="checkbox"]:checked+.custom-checkbox::after {
     opacity: 1;
-  }
-  
+}
+
 .submit-checkbox {
     display: flex;
     gap: 25px;
@@ -254,10 +266,12 @@ textarea {
         flex-direction: column;
         justify-content: space-between;
     }
-    .wrapper.every{
+
+    .wrapper.every {
         width: 90%;
         /* width: calc(100% - 20px); */
     }
+
     .form-name-main {
         margin: auto;
     }
@@ -290,9 +304,11 @@ textarea {
         flex-direction: column;
         width: 100%;
     }
-    .submit-checkbox{
+
+    .submit-checkbox {
         flex-direction: column;
     }
+
     .contacts a,
     .email a {
         display: block;
@@ -329,7 +345,7 @@ textarea {
     }
 
     main .wrapper {
-        
+
         text-align: right;
         display: flex;
         flex-direction: column;
@@ -391,9 +407,11 @@ textarea {
     .popular-project .project {
         flex-direction: row;
     }
-    .submit-checkbox{
+
+    .submit-checkbox {
         flex-direction: row;
     }
+
     .wrapper {
         text-align: center;
         display: flex;

@@ -23,18 +23,33 @@ table {
     width: 100%;
 
 }
+
 .table {
     border-radius: 3px;
 }
+
+.price_home {
+    font-size: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
 .timers {
     width: 45%;
 }
-.time { 
+
+.time {
     font-size: 14rem;
     line-height: 24rem;
     color: #666666;
     font-family: "Arial";
     margin-bottom: 20px;
+}
+
+.company {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
 }
 
 .wrapper.main-wrapper {
@@ -276,11 +291,13 @@ table tbody tr:hover td {
 @media (min-width: 1024px) {
     .house {
         width: fit-content;
-        
+
     }
-    .wrapper .popular-project .flex{
+
+    .wrapper .popular-project .flex {
         flex-wrap: nowrap;
     }
+
     main {
         text-align: left;
     }
